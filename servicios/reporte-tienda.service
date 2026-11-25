@@ -1,0 +1,15 @@
+[Unit]
+Description=Reporte de actividad de la tienda de barrio
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/reporte_tienda.sh
+Restart=always
+RestartSec=5
+User=dueno_tienda
+Group=tienda_admin
+
+[Install]
+WantedBy=multi-user.target
+

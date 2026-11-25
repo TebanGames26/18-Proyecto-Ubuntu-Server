@@ -1,0 +1,17 @@
+sudo cat /srv/caso/reportes/actividad.log
+
+2026-11-24 20:31:15 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:31:48 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:32:20 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:32:54 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:33:26 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:33:56 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:34:26 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:34:59 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:35:30 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:36:04 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:36:34 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:37:05 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:37:38 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:38:11 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:38:45 | ventas=2 | facturas=1 | disco=33%

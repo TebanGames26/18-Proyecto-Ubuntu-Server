@@ -1,0 +1,4 @@
+sudo -u empleado1 bash -c "echo 'venta 2: 23000' > /srv/caso/ventas/venta_002.txt"
+sudo -u empleado1 ls /srv/caso/reportes
+
+ls: no se puede abrir el directorio '/srv/caso/reportes': Permiso denegado

@@ -1,0 +1,7 @@
+sudo bash -c 'ls -ld /srv/caso /srv/caso/*'
+
+drwxr-x--x 6 dueno_tienda tienda_admin  4096 Nov 24 19:41 /srv/caso
+drwxrwx--- 2 dueno_tienda tienda_ventas 4096 Nov 24 19:41 /srv/caso/facturas
+drwxrwx--- 2 dueno_tienda tienda_ventas 4096 Nov 24 19:41 /srv/caso/inventario
+drwxrwx--- 2 dueno_tienda tienda_admin  4096 Nov 24 19:41 /srv/caso/reportes
+drwxrwx--- 2 dueno_tienda tienda_ventas 4096 Nov 24 19:41 /srv/caso/ventas

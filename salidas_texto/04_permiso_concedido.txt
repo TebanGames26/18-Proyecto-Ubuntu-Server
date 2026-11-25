@@ -1,0 +1,5 @@
+sudo -u dueno_tienda touch /srv/caso/reportes/prueba_dueno.txt
+sudo -u dueno_tienda ls -l /srv/caso/reportes
+
+total 0
+-rw-r--r-- 1 dueno_tienda dueno_tienda 0 Nov 24 20:02 prueba_dueno.txt

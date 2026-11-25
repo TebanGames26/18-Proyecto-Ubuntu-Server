@@ -1,0 +1,43 @@
+systemctl status reporte-tienda.service
+
+● reporte-tienda.service - Reporte de actividad de la tienda de barrio
+     Loaded: loaded (/etc/systemd/system/reporte-tienda.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-11-24 20:41:48 UTC; 42s ago
+ Invocation: 2ed55c9bf7164ce2a4b436b75a6a1815
+   Main PID: 17323 (reporte_tienda.)
+      Tasks: 2 (limit: 6186)
+     Memory: 2.7M (peak: 5.5M)
+        CPU: 104ms
+     CGroup: /system.slice/reporte-tienda.service
+             ├─17323 /bin/bash /usr/local/bin/reporte_tienda.sh
+             └─17347 sleep 30
+
+nov 24 20:41:43 elteban systemd[1]: reporte-tienda.service: Killed unit cgroup '/system.slice/reporte-t>
+nov 24 20:41:43 elteban systemd[1]: reporte-tienda.service: Main process exited, code=killed, status=9/>
+nov 24 20:41:43 elteban systemd[1]: reporte-tienda.service: Failed with result 'signal'.
+nov 24 20:41:48 elteban systemd[1]: reporte-tienda.service: Scheduled restart job, restart counter is a>
+nov 24 20:41:48 elteban systemd[1]: Started reporte-tienda.service - Reporte de actividad de la tienda
+
+
+sudo cat /srv/caso/reportes/actividad.log
+
+2026-11-24 20:31:15 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:31:48 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:32:20 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:32:54 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:33:26 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:33:56 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:34:26 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:34:59 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:35:30 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:36:04 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:36:34 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:37:05 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:37:38 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:38:11 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:38:45 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:39:19 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:39:50 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:40:22 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:40:53 | ventas=2 | facturas=1 | disco=33%
+2026-11-24 20:41:25 | ventas=2 | facturas=1 | disco=33%

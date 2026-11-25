@@ -1,0 +1,17 @@
+sudo systemctl daemon-reload
+sudo systemctl enable --now reporte-tienda.service
+systemctl status reporte-tienda.service
+
+● reporte-tienda.service - Reporte de actividad de la tienda de barrio
+     Loaded: loaded (/etc/systemd/system/reporte-tienda.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-11-24 20:31:15 UTC; 16s ago
+ Invocation: 51c311bd1c03460e9194fb05c6cf77a8
+   Main PID: 17016 (reporte_tienda.)
+      Tasks: 2 (limit: 6186)
+     Memory: 2.6M (peak: 4.9M)
+        CPU: 39ms
+     CGroup: /system.slice/reporte-tienda.service
+             ├─17016 /bin/bash /usr/local/bin/reporte_tienda.sh
+             └─17032 sleep 30
+
+nov 24 20:31:15 elteban systemd[1]: Started reporte-tienda.service - Reporte de actividad de la tienda

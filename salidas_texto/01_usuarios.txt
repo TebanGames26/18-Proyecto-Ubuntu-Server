@@ -1,0 +1,9 @@
+id dueno_tienda: uid=1001(dueno_tienda) gid=1003(dueno_tienda) groups=1003(dueno_tienda),1001(tienda_ventas),1002(tienda_admin)
+
+id empleado_1: uid=1002(empleado1) gid=1004(empleado1) groups=1004(empleado1),1001(tienda_ventas)
+
+id empleado_2: uid=1003(empleado2) gid=1005(empleado2) groups=1005(empleado2),1001(tienda_ventas)
+
+getent group tienda_ventas: tienda_ventas:x:1001:dueno_tienda,empleado1,empleado2
+
+getent group tienda_admin: tienda_admin:x:1002:dueno_tienda
